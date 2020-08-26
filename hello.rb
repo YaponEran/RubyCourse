@@ -8,22 +8,22 @@
 
 # giveVal = gets.chomp.to_i
 
-# def water_shuffer(minutes)
-#     if minutes < 10
-#         puts "Water is not boiling"
-#     elsif minutes == 10
-#         puts "boling almost"
-#     elsif minutes == 11
-#         puts boling
-#     else
-#         puts "hot fucker"
-#     end
-# end
+def water_shuffer(minutes)
+    if minutes < 10
+        puts "Water is not boiling"
+    elsif minutes == 10
+        puts "boling almost"
+    elsif minutes == 11
+        puts boling
+    else
+        puts "hot fucker"
+    end
+end
 
-# someArr = {"carrot"=>10, "orange"=> 5}
-# puts someArr["carrot"]
+someArr = {"carrot"=>10, "orange"=> 5}
+puts someArr["carrot"]
 
-# water_shuffer(giveVal)
+water_shuffer(giveVal)
 
 
 class Student
